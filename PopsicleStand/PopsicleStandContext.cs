@@ -43,5 +43,9 @@ namespace PopsicleStand
         // special "local" folder for your platform.
         protected override void OnConfiguring(DbContextOptionsBuilder options)
             => options.UseSqlite($"Data Source={DbPath}");
+
+        // The following configures EF to create a Sqlite database file in the
+        // special "local" folder for your platform.
+        public DbSet<PopsicleStand.Entities.Warehouse> Warehouse { get; set; }
     }
 }

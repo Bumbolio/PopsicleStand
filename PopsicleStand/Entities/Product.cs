@@ -11,6 +11,6 @@ namespace PopsicleStand.Entities
 
         public Guid? WarehouseId { get; set; }
         [ForeignKey("WarehouseId")]
-        public virtual Warehouse Warehouse { get; set; }
+        public virtual Warehouse? Warehouse { get; set; }
     }
 }

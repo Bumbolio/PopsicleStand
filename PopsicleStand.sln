@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PopsicleStand", "PopsicleStand\PopsicleStand.csproj", "{66380428-7716-47B1-AA91-0ECC87E7EB53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PopsicleStand", "PopsicleStand\PopsicleStand.csproj", "{66380428-7716-47B1-AA91-0ECC87E7EB53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PopsicleStandMvc", "PopsicleStandMvc\PopsicleStandMvc.csproj", "{72C0FA61-A71A-4C81-8CB8-F2BB0452BAB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{66380428-7716-47B1-AA91-0ECC87E7EB53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66380428-7716-47B1-AA91-0ECC87E7EB53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66380428-7716-47B1-AA91-0ECC87E7EB53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72C0FA61-A71A-4C81-8CB8-F2BB0452BAB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72C0FA61-A71A-4C81-8CB8-F2BB0452BAB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72C0FA61-A71A-4C81-8CB8-F2BB0452BAB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72C0FA61-A71A-4C81-8CB8-F2BB0452BAB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
